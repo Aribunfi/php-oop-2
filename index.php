@@ -1,5 +1,25 @@
 <?php
 
+class Products {
+    public $food;
+    public $games;
+    public $kennels;
+
+public function __construct(
+    string $_food,
+    string $_games,
+    string $_kennels
+)
+{
+    $this->food = $_food;
+    $this->grames = $_games;
+    $this->kennels = $_kennels;
+}
+
+
+}
+
+cats ["title", "image", "price", "icon", "product"]
 
 ?>
 
