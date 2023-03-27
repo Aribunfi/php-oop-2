@@ -21,3 +21,5 @@ class ProductToy extends Product {
     return "Giocattolo";
   }
 }
+
+?>
