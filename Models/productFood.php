@@ -28,3 +28,5 @@ class ProductFood extends Product {
     return "Cibo";
   }
 }
+
+?>
