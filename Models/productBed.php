@@ -28,3 +28,5 @@ class ProductBed extends Product {
     return "Cuccia";
   }
 }
+
+?>
