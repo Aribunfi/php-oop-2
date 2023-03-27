@@ -81,8 +81,14 @@ if ($product)
             <h5 class="card-title">
               <i class="<?= $product->getCategory()->icon ?></h5>
               <?= $product->getName() ?>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+              <small class="text-muted">
+                <?= $product->getTextClassname() ?>
+              </small>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              <?php if($product instanceof ProductBed || $product instanceof ProductFood) : ?>
+              <span><?= $product->getFullWeight() ?></span>
+              <?php endif; ?>
           </div>
         </div>
       </div>
