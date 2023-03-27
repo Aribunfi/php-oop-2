@@ -1,5 +1,11 @@
 <?php 
 
+require_once __DIR__ . "/../Models/Category.php";
+
+require_once __DIR__ . "/../Models/ProductBed.php";
+require_once __DIR__ . "/../Models/ProductFood.php";
+require_once __DIR__ . "/../Models/ProductToy.php";
+
 $category_dog = new Category("Cane", "fa-solid fa-dog");
 $category_cat = new Category("Gatto", "fa-solid fa-cat");
 
