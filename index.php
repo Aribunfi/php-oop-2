@@ -1,60 +1,9 @@
-<?php
+<?php 
 
-class Product {
-    public $name;
-    protected $prezzo;
-    public $food;
-    public $games;
-    public $kennels;
-
-public function __construct(
-    string $_nome,
-    string $_prezzo,  
-    string $_food,
-    string $_games,
-    string $_kennels
-)
-{
-    $this->food = $_food;
-    $this->grames = $_games;
-    $this->kennels = $_kennels;
-}
-
-public function 
-
-}
-
-class Category {
-  public $name;
-  protected $price,
-
-public function __construct {
-  string $name;
-  float $price,
-  // Category $category
-}
-
-$this->name = $name;
-$this->price = $price;
-$this->category = $category;
-
-public function setName($name) {
-if(!is_string($name) || $name !== "") return false;
-$this->name = $name;
-
-return $this;
-}
-}
-
-$product = new Product ("Palla", 3.54, new Category("Giocattolo"));
-
-var_dump($product);
-
-if ($product)
+include __DIR__ . "/Data/products.php";
 
 
 ?>
-
 
 
 
